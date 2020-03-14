@@ -14,7 +14,7 @@
 | :------------------: | :----------------------------------------------------------: | :------------------------------------------------: | :------------: |
 |       线性代数       | [Linear Algebra](https://github.com/david990917/Linear-Algebra) |                                                    |                |
 | Python<br>思想与方法 | [Python-Programming-Course](https://github.com/david990917/Python-Programming-Course) |                                                    |                |
-|   C++<br/>程序设计   | [CPP-Programming-Course](https://github.com/david990917/CPP-Programming-Course) |       《C++程序设计》<br>《C++ Primer Plus》       |                |
+|   C++<br>程序设计    | [CPP-Programming-Course](https://github.com/david990917/CPP-Programming-Course) |         《C++程序设计》《C++ Primer Plus》         |                |
 |       电工导C        |   [SJTU-EE208](https://github.com/david990917/SJTU-EE208)    |                                                    |                |
 |      计算机组成      |      [Verilog](https://github.com/david990917/Verilog)       |                《计算机组成与设计》                |                |
 |       软件工程       | [Android-accoutingApp](https://github.com/david990917/Android-accoutingApp) |                                                    |                |
