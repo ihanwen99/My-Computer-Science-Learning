@@ -23,6 +23,7 @@
 |       人工智能       |     [Aug-MSSD](https://github.com/david990917/Aug-MSSD)      |              《人工智能：一种现代的方法》              | Stanford CS221 |
 |         算法         |                                                              | 《Introduction to Algorithms》<br>《Algorithm Design》 |                |
 |      计算机网络      | [Computer-Networks](https://github.com/david990917/Computer-Networks) |              《计算机网络：自顶向下方法》              | Stanford CS144 |
+|      移动互联网      |                                                              |                                                        |                |
 
 
 
