@@ -117,7 +117,7 @@ def BFS(root, target):
 - 树：确定没有循环
 - 希望多次访问同一个节点
 
-### 基础BFS
+### 岛屿数量：基础BFS
 
 ```python
 class Solution:
@@ -149,7 +149,7 @@ class Solution:
                 
 ```
 
-### 字符串处理邻居
+### 打开转盘锁：字符串处理邻居
 
 ```python
 class Solution:
@@ -184,7 +184,7 @@ class Solution:
         return result if isinstance(result,int) else -1
 ```
 
-### 简单剪枝
+### 完全平方数：简单剪枝
 
 ```python
 class Solution:
@@ -209,9 +209,7 @@ class Solution:
         return count if isinstance(count,int) else -1
 ```
 
-
-
-### 多源点同步BFS
+### 墙与门：多源点同步BFS
 
 ```python
 class Solution:
