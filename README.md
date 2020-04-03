@@ -1,4 +1,4 @@
-# My-Learning-Computer-Science
+# My-Computer-Science-Learning
 
 **我的计算机科学学习之路**
 
