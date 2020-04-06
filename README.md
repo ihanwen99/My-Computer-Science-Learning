@@ -31,8 +31,6 @@
 |      计算机网络      | [Computer-Networks](https://github.com/david990917/Computer-Networks) |              《计算机网络：自顶向下方法》              | Stanford CS144 |
 |      移动互联网      |                                                              |                                                        |                |
 
-
-
 目前现在的状态是融合了学习知识类型的课程和项目型的课程，会在未来整理出更多的时候进行更新。
 
 ---
@@ -42,8 +40,6 @@
 从现在[2020年春季学期]开始到硕士研究生毕业[2022年冬季学期]一共还有完整三学年的时间。
 
 从交大毕业也有16个月，每个月完成一个阶段性任务也还不错，冲！
-
-
 
 | 月      | 任务                          | 链接 |
 | ------- | ----------------------------- | ---- |
@@ -55,7 +51,17 @@
 
 面试也是成长过程中重要的部分，同样在这个Repo里面积累面试的基础知识：
 
+[CPP基础](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Interview)
+
 ---
 
 ### Algorithm
+
+LeetCode训练过程中，记录我的[题解及思路](https://github.com/david990917/My-LeetCode-Solutions)。
+
+同时记录一些算法题型的思考：
+
+- [队列和栈](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Algorithm/%E9%98%9F%E5%88%97%E5%92%8C%E6%A0%88)
+
+
 
