@@ -14,7 +14,7 @@
 
 ### SJTU-Courses
 
-**正在进行**▶	已完成✅
+**正在进行**▶	**已完成**✅
 
 
 |        Course         |                 My Repo<br>Notes/Hw/Project                  |                         Books                          |     Video      |
