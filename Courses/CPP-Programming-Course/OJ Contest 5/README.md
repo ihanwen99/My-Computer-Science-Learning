@@ -10,7 +10,7 @@
 >
 > 完全数是指一个数除了自身的所有因子之和恰好等于本身。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E5%AE%8C%E5%85%A8%E6%95%B0.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E5%AE%8C%E5%85%A8%E6%95%B0.cpp)
 
 1. 函数中要把功能实现完全，这样的话满足函数的功能（相对比不要在主函数中再添加额外的判断）
 2. 找因数的时候，注意 `i*i<n` 这样的话可以减少很多的重复计算和重复情况的排除代码。
@@ -19,7 +19,7 @@
 
 > 编写函数实现字符串函数strstr的功能
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/strstr.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/strstr.cpp)
 
 容易实现的功能。注意索引的变化。
 
@@ -61,7 +61,7 @@ const char* strstr(const char* src, const char* sub)
 >
 > 4）求并集：|
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E9%9B%86%E5%90%88.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E9%9B%86%E5%90%88.cpp)
 
 首先设计一个集合处理函数`set_process()`：将数组处理成集合。
 
@@ -167,7 +167,7 @@ void Union(int set1[], int n, int set2[], int m) {
 
 > 编写函数模板`maxmin`，可以输出数组中最大数和最小数。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/maxmin.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/maxmin.cpp)
 
 ```cpp
 // Define your maxmin template function here, which has two parameters
@@ -192,13 +192,13 @@ T maxmin(T a[], int length) {
 
 ### 5. 模拟排队时间
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E6%A8%A1%E6%8B%9F%E6%8E%92%E9%98%9F%E6%97%B6%E9%97%B4.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%A8%A1%E6%8B%9F%E6%8E%92%E9%98%9F%E6%97%B6%E9%97%B4.cpp)
 
 ### 6. 快速求幂
 
 ![在这里插入图片描述](README/20190415155258252.png)
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E5%BF%AB%E9%80%9F%E6%B1%82%E5%B9%82.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E5%BF%AB%E9%80%9F%E6%B1%82%E5%B9%82.cpp)
 
 递归的方法
 
@@ -217,7 +217,7 @@ long long quickPow(int n, int k) {
 
 难点：每次调用的时候继续输出——使用静态变量
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E7%94%9F%E6%88%90%E5%99%A8.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E7%94%9F%E6%88%90%E5%99%A8.cpp)
 
 ```cpp
 long long fib() {
@@ -232,7 +232,7 @@ long long fib() {
 
 ### 8. Z字形变换
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.cpp)
 
 1. 方法一：按行排序
 
@@ -303,4 +303,4 @@ long long fib() {
 
 难点**递归**
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
