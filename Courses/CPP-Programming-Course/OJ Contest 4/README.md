@@ -8,7 +8,7 @@
 
 > 计算1900年1月1日（星期一）至 1900+n-1 年12月31日中所有13号落在周一到周日的次数。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/13号是周几.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/13号是周几.cpp)
 
 周几其实就是一个 `相对变化` 然后 `取模` 的计算过程。
 
@@ -20,7 +20,7 @@
 
 > 使用 `埃拉托色尼筛选法` 找出小于等于 `n`的所有素数。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/找出素数.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/找出素数.cpp)
 
 算法复杂度的优化，对于我们每次找的新的一个数 `n`，我们不是从容易想到的 `2n` 开始找，我们是从 `n^2` 开始。这样的话可以减少很多重复的数。
 
@@ -30,7 +30,7 @@
 
 > 升序正整数数组，找出 x 出现的第一次和最后一次的位置
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E5%87%BA%E7%8E%B0%E7%9A%84%E4%BD%8D%E7%BD%AE.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E5%87%BA%E7%8E%B0%E7%9A%84%E4%BD%8D%E7%BD%AE.cpp)
 
 最开始进行特判，然后正常顺序遍历数组就可以。
 
@@ -38,7 +38,7 @@
 
 > 插入排序
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.cpp)
 
 简单直白实现算法即可。
 
@@ -46,7 +46,7 @@
 
 > `R*C` 的矩阵，找到鞍点。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E7%9F%A9%E9%98%B5%E9%9E%8D%E7%82%B9.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E7%9F%A9%E9%98%B5%E9%9E%8D%E7%82%B9.cpp)
 
 最直接的想法：鞍点的寻找可以通过暴力方法进行比较。
 
@@ -66,7 +66,7 @@
 
 > 极大数量的小球弹性碰撞，寻找最先和最后掉下木板的时间。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E5%B0%8F%E7%90%83%E7%A2%B0%E6%92%9E.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E5%B0%8F%E7%90%83%E7%A2%B0%E6%92%9E.cpp)
 
 这个题目主要是物理的思想。
 
@@ -90,7 +90,7 @@
 
 > 解析单字符串，实现四则运算。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97.cpp)
 
 使用数字记录的方式，不用另开数组了。
 
@@ -98,7 +98,7 @@
 
 > 删除字符串中的重复元素，并且按照ASCII码从大到小输出。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%92%E5%BA%8F%E5%8E%BB%E9%87%8D.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%92%E5%BA%8F%E5%8E%BB%E9%87%8D.cpp)
 
 简单易懂的暴力搜索实现。
 
@@ -110,6 +110,6 @@
 
 > 输出每行中一的最大出现次数。
 
-[My Code](https://github.com/david990917/CPP-Programming-Course/blob/master/OJ%20Contest%204/%E6%95%B0%E4%B8%80.cpp)
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204/%E6%95%B0%E4%B8%80.cpp)
 
 随着输入过程的判断，就能不使用额外操作实现计数。

@@ -6,6 +6,6 @@
 
 ### OnlineJudge
 
-[第五章代码及个人简析](https://github.com/david990917/CPP-Programming-Course/tree/master/OJ%20Contest%204)
+[第五章代码及个人简析](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%204)
 
-[第六章代码及个人简析](https://github.com/david990917/CPP-Programming-Course/tree/master/OJ%20Contest%205)
+[第六章代码及个人简析](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205)
