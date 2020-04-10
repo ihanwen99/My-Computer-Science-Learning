@@ -14,7 +14,7 @@
 
 ### SJTU-Courses
 
-**正在进行**▶	**已完成**✅ 计划更新中ℹ
+**正在进行**▶	**已完成**✅ 计划更新中💡
 
 
 |        Course         |                 My Repo<br>Notes/Hw/Project                  |                         Books                          |    Description    |
@@ -24,7 +24,7 @@
 |   C++<br>程序设计▶    | [CPP-Programming-Course](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course) |         《C++程序设计》<br>《C++ Primer Plus》         |                |
 |        电工导C        |   [SJTU-EE208](https://github.com/david990917/SJTU-EE208)    |                                                        |                |
 |      计算机组成       |      [Verilog](https://github.com/david990917/Verilog)       |                  《计算机组成与设计》                  |                |
-|       软件工程ℹ       | [Android-accoutingApp](https://github.com/david990917/Android-accoutingApp) |                                                        |                |
+|       软件工程💡       | [Android-accoutingApp](https://github.com/david990917/Android-accoutingApp) |                                                        |                |
 |       操作系统        | [Operating-System-Course-Project](https://github.com/david990917/Operating-System-Course-Project) |                    《操作系统概念》                    |                |
 |       人工智能        |     [Aug-MSSD](https://github.com/david990917/Aug-MSSD)      |              《人工智能：一种现代的方法》              | Stanford CS221 |
 |         算法          |                                                              | 《Introduction to Algorithms》<br>《Algorithm Design》 |                |
