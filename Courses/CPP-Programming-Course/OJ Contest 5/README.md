@@ -301,6 +301,84 @@ long long fib() {
 
 ### 9. 打印等腰三角形
 
-难点**递归**
+难点**递归** - 都可以使用静态变量传参
 
 [My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
+
+### 10. 马走日
+
+解决问题的基础办法——回溯法（常规操作就可以），注意 `true` 的返回。
+
+解决进阶问题 `n很大的情况` ，需要 `启发式搜索` 来进行剪枝：
+
+- `Warnsdorff's Rule` : 在**当前位置（1）**考虑下一个位置的时候，优先选择**下一个位置（2）**的**接下来走法（3）**最小的那一个。
+- 在上述方法的基础上，优先选择离中心位置较远的位置作为下一步。
+
+实现的过程中，我使用了 `vector` 和 `sort(v.begin(), v.end(), compare)`。
+
+[My code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E9%A9%AC%E8%B5%B0%E6%97%A5.cpp)
+
+### 11. 归并排序
+
+非常重要的排序
+
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F.cpp)
+
+```cpp
+void mergeSort(int arr[], int low, int high);
+void merge(int arr[], int low, int mid, int high);
+
+void mergeSort(int arr[], int low, int high) {
+	if (high > low) {
+		int mid = (low + high) / 2;
+		mergeSort(arr, low, mid);
+		mergeSort(arr, mid + 1, high);
+		merge(arr, low, mid, high);
+	}
+}
+
+void merge(int arr[], int low, int mid, int high) {
+	int i = low, j = mid + 1, k = 0;
+	int* temp = new int[high - low + 1];
+	while (i <= mid && j <= high) {
+		if (arr[i] < arr[j]) { temp[k++] = arr[i++]; }
+		else { temp[k++] = arr[j++]; }
+	}
+	while (i <= mid) { temp[k++] = arr[i++]; }
+	while (j <= high) { temp[k++] = arr[j++]; }
+	for (i = low, k = 0; i <= high; i++) { arr[i] = temp[k++]; }
+	delete[]temp;
+}
+```
+
+### 12. 0-1背包问题
+
+经典的动态规划问题，需要注意我们使用的数组的规模是 `0` 到 `n` —— 一共 `n+1` 个。
+
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/0-1%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp)
+
+```cpp
+int knapsack(int n, int s[], int v[], int C) {
+	int** arr = new int* [n + 1];
+	for (int i = 0; i < n + 1; i++) { arr[i] = new int[C + 1]; }
+
+	for (int i = 0; i < n + 1; i++) { arr[i][0] = 0; }
+	for (int i = 0; i < C + 1; i++) { arr[0][i] = 0; }
+
+	for (int i = 1; i < n + 1; i++) {
+		for (int j = 1; j < C + 1; j++) {
+			if (s[i - 1] > j) { arr[i][j] = arr[i - 1][j]; }
+			else { arr[i][j] = max(arr[i - 1][j], arr[i - 1][j - s[i - 1]] + v[i - 1]); }
+		}
+	}
+
+	int result = arr[n][C];
+
+	for (int i = 0; i < n + 1; i++) { delete[] arr[i]; }
+	delete[]arr;
+
+	return result;
+}
+
+```
+
