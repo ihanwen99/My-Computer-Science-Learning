@@ -56,7 +56,7 @@
 
 ### Knowledges & Skills
 
-[learnGit]()
+[learnGit](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Knowledges%26Skills/learnGit)
 
 ### Interview
 
