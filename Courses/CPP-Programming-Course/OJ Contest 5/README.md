@@ -200,7 +200,7 @@ T maxmin(T a[], int length) {
 
 [My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E5%BF%AB%E9%80%9F%E6%B1%82%E5%B9%82.cpp)
 
-递归的方法
+递归的方法：提前把 `temp` 计算出来，能够减少计算。
 
 ```cpp
 //递归的版本
@@ -216,6 +216,8 @@ long long quickPow(int n, int k) {
 ### 7. 斐波那契生成器
 
 难点：每次调用的时候继续输出——使用静态变量
+
+斐波那契需要注意最后输出的是 `a` 还是 `b`。
 
 [My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E7%94%9F%E6%88%90%E5%99%A8.cpp)
 
@@ -301,9 +303,24 @@ long long fib() {
 
 ### 9. 打印等腰三角形
 
-难点**递归** - 都可以使用静态变量传参
+难点**递归** - 使用静态变量传参
+
+递归最重要是需要明确**递归函数的执行部分对应的功能**——输出第`n`行的`*`
 
 [My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
+
+```cpp
+void print(int n) {
+	if (n == 0) { return; }
+	static int space = n-1;
+	print(n - 1);
+	for (int i = 0; i < space; i++) { cout << ' '; }space--;
+	for (int i = 0; i < 2 * n - 1; i++) { cout << "*"; }	 
+	if(space>=0)cout << endl;
+}
+```
+
+
 
 ### 10. 马走日
 
@@ -354,6 +371,8 @@ void merge(int arr[], int low, int mid, int high) {
 ### 12. 0-1背包问题
 
 经典的动态规划问题，需要注意我们使用的数组的规模是 `0` 到 `n` —— 一共 `n+1` 个。
+
+这里面用到了二维数组，如果使用 `vector` 会在初始化/释放空间的时候简单很多。
 
 [My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/0-1%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp)
 
