@@ -8,7 +8,7 @@
 
 > 编写函数`bool getdate(int x, int& month, int& day)`使之能够算出 2020 年的第`x`天是几月几日。
 
-[My Code]()
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%206/%E4%BD%95%E6%9C%88%E4%BD%95%E6%97%A5.cpp)
 
 1. 首先进行 `bool` 判断。
 
@@ -40,7 +40,7 @@ bool getdate(int x, int& month, int& day) {
 
 > 分治法找出最大和第二大的值。
 
-[My Code]()
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%206/%E5%AF%BB%E6%89%BE%E6%9C%80%E5%A4%A7%E4%B8%A4%E4%B8%AA%E6%95%B0.cpp)
 
 需要注意找的是**值**。所以如果两个相等的情况，需要将 `second` 空着。
 
