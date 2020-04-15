@@ -14,6 +14,7 @@
 
 1. 函数中要把功能实现完全，这样的话满足函数的功能（相对比不要在主函数中再添加额外的判断）
 2. 找因数的时候，注意 `i*i<n` 这样的话可以减少很多的重复计算和重复情况的排除代码。
+3. 需要注意`i*i==n`的情况。
 
 ### 2. Strstr
 
@@ -215,11 +216,11 @@ long long quickPow(int n, int k) {
 
 ### 7. 斐波那契生成器
 
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E7%94%9F%E6%88%90%E5%99%A8.cpp)
+
 难点：每次调用的时候继续输出——使用静态变量
 
 斐波那契需要注意最后输出的是 `a` 还是 `b`。
-
-[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E7%94%9F%E6%88%90%E5%99%A8.cpp)
 
 ```cpp
 long long fib() {
@@ -240,7 +241,7 @@ long long fib() {
 
    通过从左向右迭代字符串，我们可以轻松地确定字符位于 Z 字形图案中的哪一行。
 
-   使用 $\text{min}( \text{numRows}, \text{len}(s))$ 个列表来表示 Z 字形图案中的非空行。
+   使用 $min(numRows，len(s))$ 个列表来表示 Z 字形图案中的非空行。
 
    从左到右迭代 s，将每个字符添加到合适的行。可以使用当前行和当前方向这两个变量对合适的行进行跟踪。
 
@@ -303,11 +304,13 @@ long long fib() {
 
 ### 9. 打印等腰三角形
 
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
+
 难点**递归** - 使用静态变量传参
 
 递归最重要是需要明确**递归函数的执行部分对应的功能**——输出第`n`行的`*`
 
-[My Code](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E6%89%93%E5%8D%B0%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2.cpp)
+同时 `static` 需要注意静态变量，在主函数中再次调用的时候没有被赋新值。
 
 ```cpp
 void print(int n) {
@@ -324,6 +327,8 @@ void print(int n) {
 
 ### 10. 马走日
 
+[My code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E9%A9%AC%E8%B5%B0%E6%97%A5.cpp)
+
 解决问题的基础办法——回溯法（常规操作就可以），注意 `true` 的返回。
 
 解决进阶问题 `n很大的情况` ，需要 `启发式搜索` 来进行剪枝：
@@ -332,8 +337,6 @@ void print(int n) {
 - 在上述方法的基础上，优先选择离中心位置较远的位置作为下一步。
 
 实现的过程中，我使用了 `vector` 和 `sort(v.begin(), v.end(), compare)`。
-
-[My code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/%E9%A9%AC%E8%B5%B0%E6%97%A5.cpp)
 
 ### 11. 归并排序
 
@@ -370,11 +373,11 @@ void merge(int arr[], int low, int mid, int high) {
 
 ### 12. 0-1背包问题
 
+[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/0-1%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp)
+
 经典的动态规划问题，需要注意我们使用的数组的规模是 `0` 到 `n` —— 一共 `n+1` 个。
 
 这里面用到了二维数组，如果使用 `vector` 会在初始化/释放空间的时候简单很多。
-
-[My Code](https://github.com/david990917/My-Computer-Science-Learning/blob/master/Courses/CPP-Programming-Course/OJ%20Contest%205/0-1%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp)
 
 ```cpp
 int knapsack(int n, int s[], int v[], int C) {
