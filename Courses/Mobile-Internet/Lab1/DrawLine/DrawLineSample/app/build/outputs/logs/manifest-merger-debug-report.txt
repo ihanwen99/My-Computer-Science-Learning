@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:3:7-43
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:6:5-15:19
+	android:label
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:6:48-80
+	android:icon
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:6:18-47
+activity#com.android.DrawLineSample.DrawLineSample
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:7:9-13:20
+	android:label
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:8:19-51
+	android:name
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:7:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml:11:27-74
+uses-sdk
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\david\AndroidStudioProjects\DrawLineSample\app\src\main\AndroidManifest.xml
