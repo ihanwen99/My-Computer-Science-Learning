@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.9.22)  19 APR 2020 20:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.9.22)  19 APR 2020 21:22
 entering extended mode
 **Lab1_Report.tex
 
 (D:\Starky\Documents\GitHub\My-Computer-Science-Learning\Courses\Mobile-Interne
-t\Lab1\Lab1_Report.tex
+t\Lab1\Lab1_Report\Lab1_Report.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\base\article.cls
@@ -845,27 +845,27 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (D:\Starky\Documents\GitHub\My-Computer-Science-Learning\Courses\Mobile-Interne
-t\Lab1\Lab1_Report.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+t\Lab1\Lab1_Report\Lab1_Report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
  (C:\CTEX\MiKTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -918,7 +918,7 @@ LaTeX Font Info:    ... okay on input line 28.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 47.
 (C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -927,56 +927,102 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 (D:\Starky\Documents\GitHub\My-Computer-Science-Learning\Courses\Mobile-Interne
-t\Lab1\Lab1_Report.out)
+t\Lab1\Lab1_Report\Lab1_Report.out)
 (D:\Starky\Documents\GitHub\My-Computer-Science-Learning\Courses\Mobile-Interne
-t\Lab1\Lab1_Report.out)
+t\Lab1\Lab1_Report\Lab1_Report.out)
 \@outlinefile=\write3
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
  (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
-
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
 LaTeX Warning: No \author given.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+(C:\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+<demo.png, id=15, 1084.05pt x 1927.2pt>
+File: demo.png Graphic file (type png)
+ <use demo.png>
+Package pdftex.def Info: demo.png used on input line 82.
+(pdftex.def)             Requested size: 433.61232pt x 770.86636pt.
+
+Overfull \hbox (3.6077pt too wide) in paragraph at lines 82--83
+ [] 
+ []
+
 [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+Overfull \vbox (214.3898pt too high) has occurred while \output is active []
+
+
+[2 <D:/Starky/Documents/GitHub/My-Computer-Science-Learning/Courses/Mobile-Inte
+rnet/Lab1/Lab1_Report/demo.png>] <love.png, id=38, 1084.05pt x 1927.2pt>
+File: love.png Graphic file (type png)
+
+<use love.png>
+Package pdftex.def Info: love.png used on input line 92.
+(pdftex.def)             Requested size: 184.28606pt x 327.61967pt.
+ <Colorful_520.png, id=39, 1084.05pt x 1927.2pt>
+File: Colorful_520.png Graphic file (type png)
+
+<use Colorful_520.png>
+Package pdftex.def Info: Colorful_520.png used on input line 93.
+(pdftex.def)             Requested size: 184.28606pt x 327.61967pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+ (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+ [3 <D:/Starky/Documents/GitHub/My-Computer-Science-Learning/Courses/Mobile-Int
+ernet/Lab1/Lab1_Report/love.png> <D:/Starky/Documents/GitHub/My-Computer-Scienc
+e-Learning/Courses/Mobile-Internet/Lab1/Lab1_Report/Colorful_520.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
 (D:\Starky\Documents\GitHub\My-Computer-Science-Learning\Courses\Mobile-Interne
-t\Lab1\Lab1_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `Lab1_Report.out' has not changed.
-(rerunfilecheck)             Checksum: 61FCF540A89D257200E864872F675912;43.
+t\Lab1\Lab1_Report\Lab1_Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+
+
+Package rerunfilecheck Warning: File `Lab1_Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Lab1_Report.out':
+(rerunfilecheck)             Before: BAB0F617843D1228426AFC482E1FD5D3;156
+(rerunfilecheck)             After:  69835AA6EE0100837F5914D098F17058;202.
  ) 
 Here is how much of TeX's memory you used:
- 10162 strings out of 495354
- 137267 string characters out of 3183859
- 245989 words of memory out of 3000000
- 13142 multiletter control sequences out of 15000+200000
- 10448 words of font info for 39 fonts, out of 3000000 for 9000
+ 10599 strings out of 495354
+ 141584 string characters out of 3183859
+ 274648 words of memory out of 3000000
+ 13543 multiletter control sequences out of 15000+200000
+ 11115 words of font info for 41 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,6n,43p,249b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti9.pfb>
-Output written on Lab1_Report.pdf (1 page, 64611 bytes).
+ 32i,6n,43p,249b,1288s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
+:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lab1_Report.pdf (4 pages, 279972 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 40 words of extra memory for PDF output out of 10000 (max. 10000000)
 

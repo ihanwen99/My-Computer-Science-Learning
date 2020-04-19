@@ -11,7 +11,7 @@ In this Hello World Project, I initialize a brand new java program.
 2. And then give the TextView value
 
    ```java
-   txtResult3.setText(String.valueOf(text3));
+   txtResult.setText(String.valueOf(text));
    ```
 
 ### Run
