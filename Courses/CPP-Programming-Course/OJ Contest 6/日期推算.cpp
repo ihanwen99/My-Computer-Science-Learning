@@ -1,9 +1,11 @@
 ﻿#include <iostream>
 using namespace std;
 
+int monthDay[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 bool isLeapYear(int year);
+int afterThisYearLeftDays(int year, int days);
 int firstYearLeftDays(int year, int month, int day);
-void calInThisYear(int year, int month, int day, int days, int& finalMonth, int& finalDay);
+void calInThisYear(int month, int day, int days, int& finalMonth, int& finalDay);
 void print(int year, int month, int day);
 
 int main() {
@@ -18,29 +20,29 @@ int main() {
 			else { day = day * 10 + date[i] - '0'; }
 		}
 	}
+	//cout << year << ' ' << month << ' ' << day << endl;
 
 	int leftDays = firstYearLeftDays(year, month, day);
 	int finalMonth, finalDay;
 
 	//增加的天数不足以跨年，从当前日期开始增加
 	if (days <= leftDays) {
-		calInThisYear(year, month, day, days, finalMonth, finalDay);
+		calInThisYear(month, day, days, finalMonth, finalDay); //cout << finalMonth << ' ' << finalDay << endl;
 		print(year, finalMonth, finalDay);
 		return 0;
 	}
 
 	//剩下的天数可以跨年，预先判断年份是否超期
-	//12月31日相当于1月0日
-	days -= leftDays; year++; if (year > 9999) { cout << "out of limit!"; return 0; }
+	days -= leftDays; year++; if (year > 9999) { cout << "out of limit!"; return 1; }
 
 	//不断跨年
 	while (days > (365 + isLeapYear(year))) {
 		days -= 365 + isLeapYear(year);
-		year++; if (year > 9999) { cout << "out of limit!"; return 0; }
+		year++; if (year > 9999) { cout << "out of limit!"; return 1; }
 	}
 
 	//余下天数不足以跨年，从新年第零天开始增加
-	calInThisYear(year, 1, 0, days, finalMonth, finalDay);
+	calInThisYear(1, 0, days, finalMonth, finalDay);
 	print(year, finalMonth, finalDay);
 
 	return 0;
@@ -50,9 +52,11 @@ bool isLeapYear(int year) {
 	return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 }
 
+int afterThisYearLeftDays(int year, int days) {
+	return days - (365 + isLeapYear(year));
+}
 
 int firstYearLeftDays(int year, int month, int day) {
-	int monthDay[] = { 31, 28 + isLeapYear(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	int leftDays = -day;
 	for (int monthID = month - 1; monthID < 12; monthID++) {
 		leftDays += monthDay[monthID];
@@ -60,8 +64,7 @@ int firstYearLeftDays(int year, int month, int day) {
 	return leftDays;
 }
 
-void calInThisYear(int year, int month, int day, int days, int& finalMonth, int& finalDay) {
-	int monthDay[] = { 31, 28 + isLeapYear(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+void calInThisYear(int month, int day, int days, int& finalMonth, int& finalDay) {
 	days += day;
 	int monthID = month - 1;
 	while (days > monthDay[monthID]) {
@@ -72,7 +75,7 @@ void calInThisYear(int year, int month, int day, int days, int& finalMonth, int&
 }
 
 void print(int year, int month, int day) {
-	if (year < 100) {
+	if (year < 100) { 
 		if (year < 10) { cout << "000" << year; }
 		else { cout << "00" << year; }
 	}
