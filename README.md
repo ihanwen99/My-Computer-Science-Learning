@@ -72,6 +72,12 @@ LeetCode训练过程中，记录我的[题解及思路](https://github.com/david
 
 同时记录一些算法题型的思考：
 
+##### 动态规划
+
+- [二维前缀和]()
+
+##### 常用数据结构
+
 - [队列和栈](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Algorithm/%E9%98%9F%E5%88%97%E5%92%8C%E6%A0%88)
 
 
