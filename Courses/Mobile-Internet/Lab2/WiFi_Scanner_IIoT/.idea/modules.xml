@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WiFi_Scanner_IIoT.iml" filepath="$PROJECT_DIR$/WiFi_Scanner_IIoT.iml" group="WiFi_Scanner_IIoT" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="WiFi_Scanner_IIoT/app" />
+    </modules>
+  </component>
+</project>
