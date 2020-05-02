@@ -44,6 +44,8 @@ bool getdate(int x, int& month, int& day) {
 
 需要注意找的是**值**。所以如果两个相等的情况，需要将 `second` 空着。
 
+**Tip：**最好还是特殊情况的时候，second设置为最小值(INT_MIN)；
+
 ```cpp
 void max2(int a[], int n, int* first, int* second) {
 	switch (n) {
