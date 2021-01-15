@@ -70,7 +70,7 @@
 
 - [Knowledges & Skills](https://www.yuque.com/starky/sqn8gh) 
 
-同时这个仓库是我 `LeetCode` 训练过程中的[题解及思路](https://github.com/david990917/My-LeetCode-Solutions)。
+同时右侧链接对应的仓库是我 `LeetCode` 训练过程中的[题解及思路](https://github.com/david990917/My-LeetCode-Solutions)。
 
 
 
