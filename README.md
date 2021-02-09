@@ -60,7 +60,7 @@
 | 2020.11  | 《计算理论》                                                 | 神奇的计算机理论课程       |
 | 2020.12  | 《数据库》                                                   | 课程考试，选择题目应试     |
 | 2021.01  | 《数据结构》                                                 | 系统复习                   |
-| 2021.02  | 《》                                                         |                            |
+| 2021.02  | 《机器学习》                                                 |                            |
 
 ---
 
@@ -74,5 +74,11 @@
 
 同时右侧链接对应的仓库是我 `LeetCode` 训练过程中的[题解及思路](https://github.com/david990917/My-LeetCode-Solutions)。
 
+---
 
+我的三个博客：
+
+- [主博客 - starky99.com](https://starky99.com/) Hexo + 自我设计主题
+- [[科技博客 - tech.starky99.com](https://tech.starky99.com/)](https://tech.starky99.com/) Hexo + NexT
+- [成长博客 - growth.starky99.com](https://growth.starky99.com/) Docsify
 
