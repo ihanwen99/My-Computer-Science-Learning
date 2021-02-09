@@ -39,9 +39,10 @@
 
 ### Web-Courses
 
-| University          | Course                                                       |
-| ------------------- | ------------------------------------------------------------ |
-| 北京大学研究生课程✅ | [区块链技术与应用](https://github.com/david990917/BlockChain-Technology-and-Application) |
+| University                                                   | Course                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 北京大学研究生课程✅                                          | [区块链技术与应用](https://github.com/david990917/BlockChain-Technology-and-Application) |
+| 斯坦福大学 Coursera网课▶ [机器学习 Andrew Ng](https://www.coursera.org/learn/machine-learning) |                                                              |
 
 ---
 
@@ -79,6 +80,6 @@
 我的三个博客：
 
 - [主博客 - starky99.com](https://starky99.com/) Hexo + 自我设计主题
-- [[科技博客 - tech.starky99.com](https://tech.starky99.com/)](https://tech.starky99.com/) Hexo + NexT
+- [科技博客 - tech.starky99.com](https://tech.starky99.com/) Hexo + NexT
 - [成长博客 - growth.starky99.com](https://growth.starky99.com/) Docsify
 
