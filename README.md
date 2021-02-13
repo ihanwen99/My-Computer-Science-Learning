@@ -43,6 +43,15 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 北京大学研究生课程✅                                          | [区块链技术与应用](https://github.com/david990917/BlockChain-Technology-and-Application) |
 | 斯坦福大学 Coursera网课▶ [机器学习 Andrew Ng](https://www.coursera.org/learn/machine-learning) |                                                              |
+|                                                              |                                                              |
+
+### 极客时间
+
+| 课程               | 内容                                                         |
+| ------------------ | ------------------------------------------------------------ |
+| 微服务架构核心20讲 | [微服务架构 PDF OneDrive](https://sjtueducn-my.sharepoint.com/:b:/g/personal/hwliu2017_sjtu_edu_cn/EYsEPMiBf5NAj0oXZE9rb6EBfgbzohpqzPVA8qCcu4K-Yg?e=fjKMOu) |
+
+
 
 ---
 
