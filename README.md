@@ -71,12 +71,13 @@
 | 2020.12  | 《数据库》                                                   | 课程考试，选择题目应试            |
 |          |                                                              |                                   |
 | 2021.10  |                                                              | Distributed System 1,7            |
-| 2021.11  | 1 - <Economics><br>2 - <Micro Economics>                     | Principle of Economic 1,0         |
-| 2021.12  | <Cirrus- a Serverless Framework for End-to-end ML Workflows> | Serverless Seminar 1,0            |
-| 2022.01  | <Quantum Computation and Quantum Information>                | Quantum Computing                 |
-| 2022.02  | 1 - <Computer Architecture A Quantitative Approach (5th edition)><br>2 - <Gonzalez_Processor_Microarchitecture_2010_Claypool><br>3 - <Parallel Computer Architecture><br>4 - <Computer Organization AND Design><br>5 - <Andrew S. Tanenbaum - Structured Computer Organization> | Advanced Computer Achitecture 1,0 |
-| 2022.03  | <Introduction to Algorithm3>                                 | 算法课 2,0                        |
-| 2022.04  | <Data Analytics - Models and Algorithms>                     | Data Mining 1,0                   |
+| 2021.11  | 1 - *Economics*<br>2 - *Micro Economics*                     | Principle of Economic 1,0         |
+| 2021.12  | *Cirrus- a Serverless Framework for End-to-end ML Workflows* | Serverless Seminar 1,0            |
+| 2022.01  | *Quantum Computation and Quantum Information*                | Quantum Computing                 |
+| 2022.02  | 1 - Computer Architecture A Quantitative Approach (5th edition)<br>2 - *Gonzalez_Processor_Microarchitecture_2010_Claypool*<br>3 - *Parallel Computer Architecture*<br>4 - Computer Organization AND Design<br>5 - *Andrew S. Tanenbaum - Structured Computer Organization* | Advanced Computer Achitecture 1,0 |
+| 2022.03  | Introduction to Algorithm3                                   | 算法课 2,0                        |
+| 2022.04  | *Data Analytics - Models and Algorithms*                     | Data Mining 1,0                   |
+| 2022.05  | *BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES*                    | BlockChain                        |
 
 ---
 
