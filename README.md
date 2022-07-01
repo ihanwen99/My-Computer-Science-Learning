@@ -57,27 +57,27 @@
 
 ### Textbook & Videos
 
-从现在[2020年春季学期]开始到硕士研究生毕业[2022年冬季学期]一共还有完整三学年的时间。
+从`2020年春季学期`开始：
 
-从交大毕业也有16个月，每个月完成一个阶段性任务也还不错，冲！
-
-| 月       | 任务                                                         | 简介                              |
-| -------- | ------------------------------------------------------------ | --------------------------------- |
-| 2020.04▶ | 《计算机网络 · 自顶向下方法》                                |                                   |
-| 2020.05▶ | 《计算机网络》                                               |                                   |
-| 2020.06  | 《[C++ Primer](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Book/C%2B%2B%20Primer)》 | C++ 冲冲冲                        |
-| 2020.10  | 《数字图像处理》                                             | 课程考试，以知识性学习为主        |
-| 2020.11  | 《计算理论》                                                 | 神奇的计算机理论课程              |
-| 2020.12  | 《数据库》                                                   | 课程考试，选择题目应试            |
-|          |                                                              |                                   |
-| 2021.10  |                                                              | Distributed System 1,7            |
-| 2021.11  | 1 - *Economics*<br>2 - *Micro Economics*                     | Principle of Economic 1,0         |
-| 2021.12  | *Cirrus- a Serverless Framework for End-to-end ML Workflows* | Serverless Seminar 1,0            |
-| 2022.01  | *Quantum Computation and Quantum Information*                | Quantum Computing                 |
-| 2022.02  | 1 - Computer Architecture A Quantitative Approach (5th edition)<br>2 - *Gonzalez_Processor_Microarchitecture_2010_Claypool*<br>3 - *Parallel Computer Architecture*<br>4 - Computer Organization AND Design<br>5 - *Andrew S. Tanenbaum - Structured Computer Organization* | Advanced Computer Achitecture 1,0 |
-| 2022.03  | Introduction to Algorithm3                                   | 算法课 2,0                        |
-| 2022.04  | *Data Analytics - Models and Algorithms*                     | Data Mining 1,0                   |
-| 2022.05  | *BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES*                    | BlockChain                        |
+| 月     | 任务                                                         | 简介                              |
+| ------ | ------------------------------------------------------------ | --------------------------------- |
+| 20.04▶ | 《计算机网络 · 自顶向下方法》                                |                                   |
+| 20.05▶ | 《计算机网络》                                               |                                   |
+| 20.06  | 《[C++ Primer](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Book/C%2B%2B%20Primer)》 | C++ 冲冲冲                        |
+| 20.10  | 《数字图像处理》                                             | 课程考试，以知识性学习为主        |
+| 20.11  | 《计算理论》                                                 | 神奇的计算机理论课程              |
+| 20.12  | 《数据库》                                                   | 课程考试，选择题目应试            |
+|        |                                                              |                                   |
+| 21.10  |                                                              | Distributed System 1,7            |
+| 21.11  | 1 - *Economics*<br>2 - *Micro Economics*                     | Principle of Economic 1,0         |
+| 21.12  | *Cirrus- a Serverless Framework for End-to-end ML Workflows* | Serverless Seminar 1,0            |
+| 22.01  | *Quantum Computation and Quantum Information*                | Quantum Computing                 |
+| 22.02  | 1 - Computer Architecture A Quantitative Approach (5th edition)<br>2 - *Gonzalez_Processor_Microarchitecture_2010_Claypool*<br>3 - *Parallel Computer Architecture*<br>4 - Computer Organization AND Design<br>5 - *Andrew S. Tanenbaum - Structured Computer Organization* | Advanced Computer Achitecture 1,0 |
+| 22.03  | *Introduction to Algorithm3*                                 | Advanced Algorithm                |
+| 22.04  | *Data Analytics - Models and Algorithms*                     | Data Mining 1,0                   |
+| 22.05  | *BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES*                    | BlockChain                        |
+| 22.06  | *Principles of Distributed Database System*                  | Cloud Database                    |
+| 22.07  | *Cloud Native Architectures*                                 | Cloud Computing                   |
 
 ---
 
