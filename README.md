@@ -59,25 +59,33 @@
 
 从`2020年春季学期`开始：
 
-| 月     | 任务                                                         | 简介                              |
-| ------ | ------------------------------------------------------------ | --------------------------------- |
-| 20.04▶ | 《计算机网络 · 自顶向下方法》                                |                                   |
-| 20.05▶ | 《计算机网络》                                               |                                   |
-| 20.06  | 《[C++ Primer](https://github.com/david990917/My-Computer-Science-Learning/tree/master/Book/C%2B%2B%20Primer)》 | C++ 冲冲冲                        |
-| 20.10  | 《数字图像处理》                                             | 课程考试，以知识性学习为主        |
-| 20.11  | 《计算理论》                                                 | 神奇的计算机理论课程              |
-| 20.12  | 《数据库》                                                   | 课程考试，选择题目应试            |
-|        |                                                              |                                   |
-| 21.10  |                                                              | Distributed System 1,7            |
-| 21.11  | 1 - *Economics*<br>2 - *Micro Economics*                     | Principle of Economic 1,0         |
-| 21.12  | *Cirrus- a Serverless Framework for End-to-end ML Workflows* | Serverless Seminar 1,0            |
-| 22.01  | *Quantum Computation and Quantum Information*                | Quantum Computing                 |
-| 22.02  | 1 - Computer Architecture A Quantitative Approach (5th edition)<br>2 - *Gonzalez_Processor_Microarchitecture_2010_Claypool*<br>3 - *Parallel Computer Architecture*<br>4 - Computer Organization AND Design<br>5 - *Andrew S. Tanenbaum - Structured Computer Organization* | Advanced Computer Achitecture 1,0 |
-| 22.03  | *Introduction to Algorithm3*                                 | Advanced Algorithm                |
-| 22.04  | *Data Analytics - Models and Algorithms*                     | Data Mining 1,0                   |
-| 22.05  | *BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES*                    | BlockChain                        |
-| 22.06  | *Principles of Distributed Database System*                  | Cloud Database                    |
-| 22.07  | *Cloud Native Architectures*                                 | Cloud Computing                   |
+| 月     | 任务                                                         | 简介                               |
+| ------ | ------------------------------------------------------------ | ---------------------------------- |
+| 20.04▶ | 《计算机网络 · 自顶向下方法》                                |                                    |
+| 20.05▶ | 《计算机网络》                                               |                                    |
+| 20.06  | *C++ Primer*                                                 | C++                                |
+| 20.10  | 《数字图像处理》                                             | 课程考试，以知识性学习为主         |
+| 20.11  | 《计算理论》                                                 | 神奇的计算机理论课程               |
+| 20.12  | 《数据库》                                                   | 课程考试，选择题目应试             |
+|        |                                                              |                                    |
+| 21.10  | *Distributed Systems (Maarten van Steen, 3rd edition)*<br />*Distributed Systems Concepts and Design (George Coulouris, 5th edition)* | Distributed System 1,7             |
+| 21.11  | 1 - *Economics*<br>2 - *Micro Economics*                     | Principle of Economic 1,0          |
+| 21.12  | *Cirrus- a Serverless Framework for End-to-end ML Workflows* | Serverless Seminar 1,0             |
+| 22.01  | *Quantum Computation and Quantum Information*                | Quantum Computing                  |
+| 22.02  | 1 - *Computer Architecture A Quantitative Approach (5th edition)*<br>2 - *Gonzalez_Processor_Microarchitecture_2010_Claypool*<br>3 - *Parallel Computer Architecture*<br>4 - Computer Organization AND Design<br>5 - *Andrew S. Tanenbaum - Structured Computer Organization* | Advanced Computer Architecture 1,0 |
+| 22.03  | *Introduction to Algorithm3*                                 | Advanced Algorithm                 |
+| 22.04  | *Data Analytics - Models and Algorithms*                     | Data Mining 1,0                    |
+| 22.05  | *BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES*                    | BlockChain                         |
+| 22.06  | *Principles of Distributed Database System*                  | Cloud Database                     |
+| 22.07  | *Cloud Native Architectures*                                 | Cloud Computing 1,7                |
+| 22.08  |                                                              |                                    |
+| 22.09  |                                                              | Parallel Programming               |
+| 22.10  | *XRP: In-Kernel Storage Functions with eBPF*                 | System Programming                 |
+| 22.11  |                                                              | Advanced Computer Networks         |
+| 22.12  | *Beej's Guide to Network Programming*<br />*Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems* | Cloud-Based Data Processing        |
+| 23.01  |                                                              | Concept of Modern Cpp              |
+| 23.02  |                                                              |                                    |
+| 23.03  |                                                              |                                    |
 
 ---
 
